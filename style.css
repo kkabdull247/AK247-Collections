@@ -1,0 +1,161 @@
+.pictures{
+height: 87vh;
+}
+/* header{
+position: fixed;
+z-index: 5;
+width: 100%;} */
+
+.navbar{
+background-image: linear-gradient(-90deg,#aaaaaa,white);}
+.navbar-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.card{
+    margin: 0% auto;
+}
+
+#navigation{
+    position:fixed;
+    z-index: 7;
+    width:100%;
+    top: 0%;
+}
+
+marquee{
+    font-size: 1rem;
+    background-image: linear-gradient(-90deg,white,gray,white);
+    font-weight: bold;
+    /* background-color: rgb(207, 207, 211); */
+}
+ body{
+    /* background-image: linear-gradient(-90deg,white,blue,white); */
+    overflow-x: hidden;
+ }
+
+
+
+#pager{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content:center;
+
+}
+
+#bd{
+    width: 20px;
+    height: 25px;
+    color: white;
+}
+
+
+
+
+.contact{
+    padding: 5%;
+    margin: 2%;
+    margin-top: 0%;
+     /* border: 1px solid gray;
+    border-radius: 45px; 
+ background-image: linear-gradient(gray,white,gray);  */
+}
+
+/* From https://css.glass
+
+}
+
+
+/* dark mode */
+
+
+#dark-change{
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.349);
+    /* position: absolute; */
+    width: 6em;
+    height: 26px;
+    margin-right: 1em;
+    margin-top: 7px;
+    /* right: 80px;
+    top: 17px; */
+    /* border: 2px solid black; */
+    border-radius: 20px;
+}
+
+#dark-change:before {
+    position: absolute;
+    content: "";
+    margin-top: 0.08%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #000;
+    transition: 0.2s;
+    top: 3px;
+    left: 2px;
+}
+
+
+.navbar-light .navbar-toggler{
+    border: 1px #000000 solid;
+}
+
+body.night .navbar-light .navbar-toggler{
+    border: 1px #8c8c8c solid;
+} 
+
+body.night .navbar-light .navbar-toggler-icon {
+    filter: invert(9) brightness(100);
+
+}
+
+
+#dark-change.active:before {
+    /* right: 90px; */
+    right: 2px;
+    left: auto;
+    background-color: white;
+}
+
+body.night {
+
+    /* background-image: linear-gradient(-90deg, gray, white); */
+    color: black;
+}
+
+
+/* darkmode effect */
+
+body.night .navbar-light .navbar-nav .nav-link,
+body.night .navbar-light .navbar-brand
+{
+    color: white; 
+}
+
+body.night header {
+    background: #000;
+}
+
+body.night .navbar-expand-lg {
+    background: #000;
+}
+body.night{
+    background-color: #000;
+}
+body.night .contact{
+background-color: black;
+color: white;
+}
+
+body.night .sale{background-image: linear-gradient(-90deg,gray,rgb(58, 57, 57));
+    color: black;
+
+}
+body.night.navbar-light.navbar-toggler-icon {
+    
+    background-image: url(./icons8-hamburger-menu-48.png);
+    
+}
